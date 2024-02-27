@@ -1,0 +1,30 @@
+.counter-container {
+  margin-top: 20px;
+}
+
+.counter-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.counters-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.counter-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.counter-value {
+  font-size: 24px;
+  font-weight: bold;
+}

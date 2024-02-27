@@ -1,0 +1,99 @@
+html {
+  background-image: url('assesst/lib-backgorund.jpg'); /* corrected background image path */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.outerbox {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  background-color: #ffffff; /* Set background color to white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  border-radius: 10px;
+  
+}
+
+.text-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3rem; /* Increased font size */
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1.5rem; /* Increased font size */
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #8B4513; /* Brown color */
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.login-button:hover {
+  background-color: #A0522D; /* Darker brown on hover */
+}
+
+.login-button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .login-button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

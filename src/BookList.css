@@ -1,0 +1,76 @@
+/* Increase padding and add border radius to buttons */
+.book-item button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: double;
+}
+
+/* Add transition effect to button hover */
+.book-item button:hover {
+  background-color: #c82333;
+  transition: background-color 0.3s ease;
+}
+
+/* Style pagination links */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+}
+.book-delete{
+  color: #020203;
+  background-color: red;
+}
+
+.pagination li a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Style active page link */
+.pagination .active a {
+  background-color: #f10909;
+  color: #fff;
+  border-color: #020203;
+}
+
+/* Add box shadow to table */
+.book-table {
+  box-shadow: 0 4px 8px rgba(77, 202, 19, 0.741);
+  background-color: #dede94;
+}
+
+/* Add margin to table header */
+.book-table th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #08c8fdc2;
+  margin: 0;
+  text-decoration: double;
+}
+
+/* Add box shadow to table rows on hover */
+.book-item:hover {
+  box-shadow: 0 2px 4px rgba(167, 54, 54, 0.1);
+}
+.booklist-image{
+  width: 100px;
+  height: 100px;
+  image-orientation: from-image;
+  align-content: center;
+  height: auto;
+  margin-bottom: 20px;
+}

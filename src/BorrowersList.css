@@ -1,0 +1,46 @@
+/* BorrowersList.css */
+
+.borrowers-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.borrowers-list-container h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.borrowers-list-container .borrower-list-image {
+  width: 50px; 
+  height: auto;
+  margin-left: 10px;
+}
+
+.borrowers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.borrowers-table th,
+.borrowers-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.borrowers-count-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.borrowers-count-table th,
+.borrowers-count-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
